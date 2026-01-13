@@ -125,10 +125,10 @@ odrv1.axis0.controller.input_vel = 30
 🛠 UART Configuration
 # Set UART baudrate
 # Enable passthrough mode
-odrv0.config.uart_baudrate = 19200   # Must match Arduino baudrate
+odrv0.config.uart_baudrate = 115200   # Must match Arduino baudrate
 #odrv0.axis0.config.input_mode = INPUT_MODE_PASSTHROUGH
 
-odrv1.config.uart_baudrate = 19200   # Must match Arduino baudrate
+odrv1.config.uart_baudrate = 115200   # Must match Arduino baudrate
 #odrv1.axis0.config.input_mode = INPUT_MODE_PASSTHROUGH
 
 
